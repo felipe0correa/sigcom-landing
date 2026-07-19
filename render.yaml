@@ -1,6 +1,9 @@
 services:
   - type: web
     name: sigcom-landing
-    runtime: static
-    buildCommand: "echo build"
-    staticPublishPath: .
+    runtime: node
+    buildCommand: npm install
+    startCommand: npx serve -s . -l 3000
+    envVars:
+      - key: NODE_ENV
+        value: production

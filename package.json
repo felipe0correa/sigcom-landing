@@ -1,0 +1,19 @@
+{
+  "name": "sigcom-landing",
+  "version": "1.0.0",
+  "description": "Landing page SigCom",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s . -l 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipe0correa/sigcom-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.6"
+  }
+}

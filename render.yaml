@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: sigcom-landing
+    runtime: static
+    buildCommand: echo "Static site"
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
